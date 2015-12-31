@@ -50,7 +50,6 @@ class GroupedColorPaletteField extends DropdownField
                             'Options'    => new ArrayList($options)
                         )
                     );
-
                 } else {
                     throw new InvalidArgumentException('To use GroupedColorPaletteField you need to pass in an array of array\'s');
                 }
